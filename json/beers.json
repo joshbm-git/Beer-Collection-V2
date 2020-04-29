@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Carlsberg",
+    "name_breweries": "Carslberg",
+    "image_url": "https://www.carlsberggroup.com/media/26623/xz_carlsberg.png?height=570&mode=max"
+  },
+  {
+    "name": "Ceres Top Pilsner",
+    "name_breweries": "Ceres Brewery",
+    "image_url": "https://www.ceres.dk/wp-content/uploads/2015/11/ceres-pilsner.png"
+  },
+  {
+    "name": "Tuborg Grøn",
+    "name_breweries": "Carslberg",
+    "image_url": "https://tuborg.dk/media/1182/hero__0001_groen.png"
+  },
+  {
+    "name": "Carlsberg",
+    "name_breweries": "Carslberg",
+    "image_url": "https://www.carlsberggroup.com/media/26623/xz_carlsberg.png?height=570&mode=max"
+  },
+  {
+    "name": "Ceres Top Pilsner",
+    "name_breweries": "Ceres Brewery",
+    "image_url": "https://www.ceres.dk/wp-content/uploads/2015/11/ceres-pilsner.png"
+  },
+  {
+    "name": "Tuborg Grøn",
+    "name_breweries": "Carslberg",
+    "image_url": "https://tuborg.dk/media/1182/hero__0001_groen.png"
+  }
+]

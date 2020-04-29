@@ -1,0 +1,178 @@
+/* ---------- root variables ---------- */
+:root {
+  --text-color-light: #f1f1f1;
+  --text-color-dark: #333;
+
+  --background-brown: #2a1c0e;
+}
+
+/* ---------- general styling ---------- */
+html {
+  color: var(--text-color-dark);
+  font-family: "Nunito Sans", sans-serif;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+}
+
+/* ---------- topbar styling ---------- */
+.topbar {
+  background-color: var(--background-brown);
+  color: var(--text-color-light);
+  padding: 13.5px;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.topbar h2 {
+  margin: 0;
+  font-weight: 300;
+}
+
+/* ---------- tabbar styling ---------- */
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #fff;
+  opacity: 0.9;
+  border-top: solid 1px #f1f1f1;
+  backdrop-filter: blur(10px);
+}
+
+/* ---------- tabbar styling ---------- */
+.tabbar {
+  background-color: var(--background-brown);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+/* Style the links inside the navigation bar */
+.tabbar a {
+  display: inline-block;
+  color: var(--text-color-light);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Change the color of links on hover */
+.tabbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.tabbar a.active {
+  background-color: white;
+  color: black;
+}
+
+/* ---------- page styling ---------- */
+.page {
+  display: none;
+  /*min heigh is screen heigh minus height of tab and top bar */
+  min-height: calc(100vh - 110px);
+  background: #fff;
+  animation: fadeIn 0.4s;
+  /* padding equals height of tabbar and topbar */
+  padding: 5em 0;
+}
+
+/* ---------- styling ---------- */
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 10px;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid-container {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+}
+
+.grid-container figure {
+  border: solid 1px lightgrey;
+  padding: 1em;
+}
+
+.grid-container img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+}
+
+form {
+  margin: auto;
+}
+
+form button {
+  font-weight: 200;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  padding: 12px 15px;
+  font-size: 1em;
+  border-radius: 0;
+  color: #ffffff !important;
+  background-color: var(--text-color-dark);
+  width: 100%;
+  max-width: 350px;
+}
+
+input {
+  -webkit-appearance: none;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 350px;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  display: block;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+/* ---------- beer styling ---------- */
+#beer-container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#beer-container figure {
+  width: 100%;
+  padding: 0;
+}
+
+#beer-container article {
+  width: 100%;
+  border: solid 1px lightgrey;
+  padding: 1em;
+  line-height: 1.5em;
+}
